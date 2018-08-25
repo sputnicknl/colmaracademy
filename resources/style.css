@@ -1,0 +1,213 @@
+html, body{
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  height: 32px;
+}
+
+.menu {
+  margin-right: 24px;
+}
+
+li {
+  text-decoration: none;
+  display: inline;
+  padding: 16px;
+}
+
+/*  MAIN HEADER */
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.image-box {
+  margin: 32px 24px 32px 24px;
+  width: 60%;
+}
+
+.image-box img {
+  width:100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #595959;
+  max-width: 50%;
+}
+/*  END OF MAIN HEADER */
+
+
+/*  INFORMATION SECTION */
+.information-main {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  height: 900px;
+}
+
+.information-main .image-box {
+  margin: 32px 24px 32px 24px;
+  width: 60%;
+}
+
+.information-main .image-box img {
+  width:100%;
+}
+
+
+.small-box {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.small-box #TOP {
+  margin-top: 32px;
+}
+
+.small-box img {
+  margin: 16px;
+  width: 35%;
+  height: 35%;
+}
+
+.small-box .text {
+  width: 65%;
+}
+
+
+/*  END OF INFORMATION SECTION */
+
+
+/*  START LEARNING SECTION */
+.start-learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.header {
+  margin-top: 32px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 32px 72px 32px 72px;
+}
+
+.learning-box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 32px;
+}
+
+.learning-box img {
+  width: 100%;
+}
+
+.learning-box-text {
+  background-color: white;
+  padding: 16px;
+}
+/*  END OF  LEARNING SECTION */
+
+/* THESIS SECTION */
+.thesis-exhibit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thesis-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  height: 700px;
+}
+
+
+.thesis-container .video-box {
+  margin: 32px 24px 32px 24px;
+  width: 60%;
+}
+
+.thesis-container .video-box video {
+  width:100%;
+}
+
+
+.small-box {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.small-box #TOP {
+  margin-top: 32px;
+}
+
+.small-box img {
+  margin: 16px;
+  width: 35%;
+  height: 35%;
+}
+
+.small-box .text {
+  width: 65%;
+}
+
+/* END OF THESIS SECTION */
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.footer-links {
+  margin-right: 24px;
+}
+
+.footer-links li {
+  text-decoration: none;
+  display: inline;
+  padding: 16px;
+}
