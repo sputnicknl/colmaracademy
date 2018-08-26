@@ -9,13 +9,11 @@ html, body{
 
 /* TYPOGRAPHY */
 html {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
   font-size: 16px;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  font-weight: lighter;
-}
 
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -36,9 +34,10 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-.menu {
+.menu .copyright .footer-links {
   font-family: 'Lato', sans-serif;
 }
+
 /* END OF TYPOGRAPHY */
 
 
@@ -92,6 +91,14 @@ li {
   color: white;
   background-color: #595959;
   max-width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+}
+
+.button:hover {
+  background-color: #262626;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: all 0.4s ease-out 0s;
 }
 /*  END OF MAIN HEADER */
 
@@ -100,9 +107,8 @@ li {
 .information-main {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
-  height: 900px;
+  height: 700px;
 }
 
 .information-main .image-box {
@@ -121,18 +127,23 @@ li {
   width: 40%;
 }
 
-.small-box #TOP {
+/* .small-box #TOP {
   margin-top: 32px;
-}
+} */
 
 .small-box img {
   margin: 16px;
   width: 35%;
-  height: 35%;
+  height: auto;
 }
 
 .small-box .text {
   width: 65%;
+}
+
+.small-box:hover {
+  background-color: #EAEAEA;
+  transition: all 0.3s ease 0s;
 }
 
 
@@ -248,3 +259,5 @@ li {
   display: inline;
   padding: 16px;
 }
+
+/* END OF FOOTER */
