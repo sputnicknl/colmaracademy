@@ -209,7 +209,6 @@ li {
 .thesis-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
   height: 700px;
   width:100%;
@@ -222,7 +221,7 @@ li {
 }
 
 .thesis-container .video-box video {
-  width:100%;
+  width:91%;
 }
 
 
