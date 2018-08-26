@@ -40,13 +40,20 @@ h3 {
 
 /* END OF TYPOGRAPHY */
 
-
+.site-container {
+  margin: 0 auto;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   height: 64px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
 }
 
 .logo-text {
@@ -74,6 +81,7 @@ li {
   justify-content: space-between;
   align-items: center;
   background-color: #EAEAEA;
+  width: 100%;
 }
 
 .image-box {
@@ -109,6 +117,7 @@ li {
   flex-direction: column;
   flex-wrap: wrap;
   height: 700px;
+  width: 96%;
 }
 
 .information-main .image-box {
@@ -117,7 +126,7 @@ li {
 }
 
 .information-main .image-box img {
-  width:100%;
+  width:91%;
 }
 
 
@@ -125,16 +134,17 @@ li {
   display: flex;
   justify-content: center;
   width: 40%;
+  border-bottom: 1px solid lightgray;
 }
-
-/* .small-box #TOP {
-  margin-top: 32px;
-} */
 
 .small-box img {
   margin: 16px;
+  display: block;
   width: 35%;
+  height: 35%;
+  /* width: 35%;
   height: auto;
+  max-height: 35%; */
 }
 
 .small-box .text {
@@ -157,6 +167,7 @@ li {
   justify-content: center;
   align-items: center;
   background-color: #EAEAEA;
+  width:100%;
 }
 
 .header {
@@ -201,6 +212,7 @@ li {
   /* justify-content: space-between; */
   flex-wrap: wrap;
   height: 700px;
+  width:100%;
 }
 
 
@@ -213,26 +225,6 @@ li {
   width:100%;
 }
 
-
-.small-box {
-  display: flex;
-  justify-content: center;
-  width: 40%;
-}
-
-.small-box #TOP {
-  margin-top: 32px;
-}
-
-.small-box img {
-  margin: 16px;
-  width: 35%;
-  height: 35%;
-}
-
-.small-box .text {
-  width: 65%;
-}
 
 /* END OF THESIS SECTION */
 
