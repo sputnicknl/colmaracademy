@@ -7,9 +7,9 @@ html, body{
   box-sizing: inherit;
 }
 
-.site-container {
+/* .site-container {
   margin: 0 auto;
-}
+} */
 
 /* TYPOGRAPHY */
 html {
@@ -117,6 +117,7 @@ li {
   align-items: center;
   background-color: #EAEAEA;
   width: 100%;
+  padding-top: 64px;
 }
 
 .image-box {
