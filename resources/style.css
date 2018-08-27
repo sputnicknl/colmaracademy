@@ -7,6 +7,10 @@ html, body{
   box-sizing: inherit;
 }
 
+.site-container {
+  margin: 0 auto;
+}
+
 /* TYPOGRAPHY */
 html {
   font-family: 'Lato', sans-serif;
@@ -40,10 +44,8 @@ h3 {
 
 /* END OF TYPOGRAPHY */
 
-.site-container {
-  margin: 0 auto;
-}
 
+/* NAVIGATION */
 nav {
   display: flex;
   justify-content: space-between;
@@ -73,6 +75,39 @@ li {
   display: inline;
   padding: 16px;
 }
+
+.mobile-nav {
+  display: none;
+}
+/* END OF NAVIGATION */
+
+/* MOBILE NAVIGATION */
+@media only screen and (max-width: 770px) {
+  .nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 64px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+  }
+  .mobile-nav ul {
+    margin: auto;
+    padding: 1rem;
+  }
+}
+/* END OF MOBILE NAVIGATION */
+
+
+
 
 /*  MAIN HEADER */
 
