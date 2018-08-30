@@ -164,7 +164,6 @@ li {
   .top-container {
     display: flex;
     flex-direction: column;
-
   }
 
   .image-box {
@@ -183,9 +182,7 @@ li {
   .button {
     padding: 0.7rem;
   }
-
 }
-
 /*  END OF MOBILE MAIN HEADER */
 
 
@@ -198,12 +195,12 @@ li {
   width: 96.5%;
 }
 
-.information-main .image-box {
+.information-main .image-box-information {
   margin: 32px 24px 32px 24px;
   width: 60%;
 }
 
-.information-main .image-box img {
+.information-main .image-box-information img {
   width:91%;
 }
 
@@ -234,8 +231,37 @@ li {
   transition: all 0.3s ease 0s;
 }
 
-
 /*  END OF INFORMATION SECTION */
+
+
+/*  MOBILE INFORMATION SECTION */
+@media only screen and (max-width: 770px) {
+  .information-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .image-box-information {
+    display: none;
+  }
+
+  .small-box {
+    width: 100%;
+  }
+
+  .small-box img {
+    margin: 1rem 1rem 1rem 0;
+    width: 30%;
+    height: auto;
+  }
+}
+
+/*  END OF MOBILE INFORMATION SECTION */
+
 
 
 /*  START LEARNING SECTION */
